@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome/fontawesome-css/all.min.css">
+    <link rel="shortcut icon" href="../favicon/favicon.ico">
+
+    <title>Buat kamu sayang</title>
+
+    <style>
+
+        .container {
+            width: 100px;
+            margin: 250px auto;
+        }
+
+        .hati {
+            text-align: center;
+            font-size: 20px;
+            color: rgb(199, 5, 5);
+            transition: 3s;
+        }
+
+        .hati:hover {
+            transform: scale(20);
+        }
+
+        footer p {
+            text-align: center;
+            color: rgba(29, 29, 29, 0.952);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <i class="fas fa-heart hati"></i>
+    </div>
+
+
+        <footer>
+            <p>Made By <b>sandi saputra</b> <i class="fas fa-grin-alt"></i></p>
+        </footer>
+
+
+    <script src="../js/sweetalert2.all.min.js"></script>
+
+    <script>
+        Swal.fire('ini buat kamu sayang..').then(function() {
+            Swal.fire("tekan dan tahan lopnya ya :)")
+        });
+    </script>
+
+</body>
+</html>
